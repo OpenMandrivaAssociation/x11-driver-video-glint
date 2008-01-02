@@ -45,6 +45,5 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %doc COPYING
-%{_libdir}/xorg/modules/drivers/glint_drv.la
 %{_libdir}/xorg/modules/drivers/glint_drv.so
 %{_mandir}/man4/glint.*
