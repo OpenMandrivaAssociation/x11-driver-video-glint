@@ -38,6 +38,7 @@ autoreconf -ifs
 %install
 rm -rf %{buildroot}
 %makeinstall_std
+rm -f %{buildroot}/%{_libdir}/xorg/modules/drivers/*.la
 
 %clean
 rm -rf %{buildroot}
