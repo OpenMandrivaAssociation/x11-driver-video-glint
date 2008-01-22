@@ -1,8 +1,6 @@
-%define debug_package	%{nil}
-
 Name: x11-driver-video-glint
 Version: 1.1.1
-Release: %mkrel 5
+Release: %mkrel 6
 Summary: The X.org driver for 3DLabs Permedia
 Group: Development/X11
 URL: http://xorg.freedesktop.org
