@@ -16,7 +16,7 @@ BuildRequires: GL-devel
 Conflicts: xorg-x11-server < 7.0
 
 %description
-The X.org driver for 3DLabs Permedia
+The X.org driver for 3DLabs Permedia.
 
 %prep
 %setup -q -n xf86-video-glint-%{version}
