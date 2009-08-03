@@ -1,5 +1,5 @@
 Name: x11-driver-video-glint
-Version: 1.2.3
+Version: 1.2.4
 Release: %mkrel 1
 Summary: X.org driver for 3DLabs Permedia
 Group: System/X11
@@ -22,7 +22,7 @@ x11-driver-video-glint is the X.org driver for 3DLabs Permedia.
 %setup -q -n xf86-video-glint-%{version}
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
