@@ -1,11 +1,11 @@
 Name: x11-driver-video-glint
-Version: 1.2.6
-Release: 3
+Version: 1.2.7
+Release: 1
 Summary: X.org driver for 3DLabs Permedia
 Group: System/X11
 License: MIT
 URL: http://xorg.freedesktop.org
-Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-glint-%{version}.tar.bz2
+Source0: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-glint-%{version}.tar.bz2
 
 BuildRequires: libdrm-devel >= 2.0
 BuildRequires: x11-proto-devel >= 1.0.0
@@ -28,7 +28,6 @@ x11-driver-video-glint is the X.org driver for 3DLabs Permedia.
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 find %{buildroot} -type f -name "*.la" -exec rm -f {} ';'
 
