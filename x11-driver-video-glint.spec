@@ -1,6 +1,6 @@
 Name: x11-driver-video-glint
-Version: 1.2.7
-Release: 2
+Version: 1.2.8
+Release: 1
 Summary: X.org driver for 3DLabs Permedia
 Group: System/X11
 License: MIT
