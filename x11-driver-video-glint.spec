@@ -6,6 +6,7 @@ Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-glint-%{version}.tar.bz2
+Patch0:		remove_mibstore_h.patch
 
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(libdrm)
@@ -19,6 +20,7 @@ x11-driver-video-glint is the X.org driver for 3DLabs Permedia.
 
 %prep
 %setup -qn xf86-video-glint-%{version}
+%apply_patches
 
 %build
 %configure2_5x

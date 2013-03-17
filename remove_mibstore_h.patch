@@ -1,0 +1,11 @@
+--- xf86-video-glint-1.2.8/src/glint_driver.c~	2012-07-16 02:50:47.000000000 +0000
++++ xf86-video-glint-1.2.8/src/glint_driver.c	2013-03-17 03:31:18.882975782 +0000
+@@ -52,8 +52,6 @@
+ #include "compiler.h"
+ #include "mipointer.h"
+ 
+-#include "mibstore.h"
+-
+ #include "pm3_regs.h"
+ #include "glint_regs.h"
+ #include "IBM.h"
