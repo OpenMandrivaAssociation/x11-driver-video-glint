@@ -1,5 +1,5 @@
---- xf86-video-glint-1.2.8/src/glint_driver.c~	2012-07-16 02:50:47.000000000 +0000
-+++ xf86-video-glint-1.2.8/src/glint_driver.c	2013-03-17 03:31:18.882975782 +0000
+--- xf86-video-glint-1.2.8/src/glint_driver.c.0000~	2012-07-16 04:50:47.000000000 +0200
++++ xf86-video-glint-1.2.8/src/glint_driver.c	2013-04-06 02:39:42.895141135 +0200
 @@ -52,8 +52,6 @@
  #include "compiler.h"
  #include "mipointer.h"
@@ -9,3 +9,11 @@
  #include "pm3_regs.h"
  #include "glint_regs.h"
  #include "IBM.h"
+@@ -2904,7 +2902,6 @@ GLINTScreenInit(SCREEN_INIT_ARGS_DECL)
+         }
+     }
+ 
+-    miInitializeBackingStore(pScreen);
+     xf86SetBackingStore(pScreen);
+     xf86SetSilkenMouse(pScreen);
+ 
