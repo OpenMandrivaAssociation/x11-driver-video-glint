@@ -3,7 +3,7 @@
 Summary:  	X.org driver for 3DLabs Permedia
 Name:		x11-driver-video-glint
 Version:	1.2.8
-Release:	14
+Release:	15
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
